@@ -17,8 +17,10 @@
     embedded
     arjs="sourceType: webcam; debugUIEnabled: false;">
 
-    <!-- Hiroマーカー（最初はこれを使う） -->
-    <a-marker preset="hiro">
+    <!-- Jcgマーカー（初期Hiroマーカーから変更） -->
+    <a-marker
+      type="pattern"
+      url="pattern-jcg.patt">
 
       <!-- 白い箱 -->
       <a-entity
